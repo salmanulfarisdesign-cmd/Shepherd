@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FBF7F0">
+  <title>Page not found — SHEPHERD</title>
+  <meta name="description" content="This page could not be found.">
+  <base href="/">
+  <meta name="robots" content="noindex">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SHEPHERD">
+  <meta property="og:title" content="Page not found — SHEPHERD">
+  <meta property="og:description" content="This page could not be found.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container nav">
+
+      <a href="index.html" class="brand" aria-label="SHEPHERD home">
+        <img src="images/logo-black.png" alt="SHEPHERD" width="520" height="277">
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="products.html">All products</a>
+        <a href="index.html#ordering">How to order</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-wa btn-small whatsapp-general nav-wa" href="#">
+          <span class="icon icon-wa" aria-hidden="true"></span> WhatsApp
+        </a>
+        <button class="cart-btn" type="button" data-open-cart aria-label="Open cart">
+          <span class="icon icon-bag" aria-hidden="true"></span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </button>
+        <button class="menu-btn" type="button" id="menuButton"
+                aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro not-found">
+      <div class="container">
+        <h1 class="section-heading">This page doesn't exist</h1>
+        <p class="section-description">The link may be old or mistyped. Head back to the collection.</p>
+        <div class="hero-actions">
+          <a href="index.html" class="btn btn-dark">Go to home</a>
+          <a href="products.html" class="btn btn-outline">View all products</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" aria-label="SHEPHERD home">
+          <img src="images/logo-white.png" alt="SHEPHERD" width="520" height="277">
+        </a>
+        <p>Everyday accessories, ordered personally on WhatsApp.</p>
+      </div>
+
+      <div>
+        <h2 class="footer-heading">Shop</h2>
+        <ul class="footer-list">
+          <li><a href="products.html">All products</a></li>
+          <li><a href="products.html?category=purses">Purses</a></li>
+          <li><a href="products.html?category=watches">Watches</a></li>
+          <li><a href="products.html?category=belts">Belts</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-heading">Contact</h2>
+        <ul class="footer-list">
+          <li><a href="#" class="whatsapp-general">WhatsApp <span class="phone-display"></span></a></li>
+          <li><a href="#" class="instagram-general">Instagram <span class="instagram-handle"></span></a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> SHEPHERD. All rights reserved.</p>
+      <p>Prices in Indian rupees (₹). Availability is confirmed on WhatsApp.</p>
+    </div>
+  </footer>
+
+  <a href="#" class="floating-whatsapp whatsapp-general" aria-label="Chat with SHEPHERD on WhatsApp">
+    <span class="icon icon-wa" aria-hidden="true"></span>
+  </a>
+
+  <noscript>
+    <div class="noscript-bar">
+      Please turn on JavaScript to browse products and use the cart.
+      You can also order directly on
+      <a href="https://wa.me/919778134421">WhatsApp: +91 97781 34421</a>.
+    </div>
+  </noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/shop.js"></script>
+  <script>setupCommonUI();</script>
+
+</body>
+</html>
