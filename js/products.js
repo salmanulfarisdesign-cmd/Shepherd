@@ -155,7 +155,7 @@ const PRODUCTS = [
 
   {
     id: 8,
-    name: "Fogy Handbag",
+    name: "Fozy Handbag",
     category: "handbags",
     price: 850,
     mrp: 1200,
